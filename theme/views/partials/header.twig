@@ -1,0 +1,23 @@
+
+<header class="sticky-top">
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg d-flex align-items-ceneter justify-content-between"> 
+      <div class="navbar-brand">
+        <a class="text-light" href="{{ site.link }}">{{ site.name }}</a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+       {% include 'partials/nav.twig' %}
+        <form class="form-inline d-flex justify-content-center" method="get" action="/">
+                <div class="form-group">
+                    <label for=""></label>
+                    <input type="search"
+                           name="s" id="" class="form-control form-control-sm" placeholder="Enter your search">
+                </div>
+            </form>
+      </div>
+      
+  </nav>
+</header>
+

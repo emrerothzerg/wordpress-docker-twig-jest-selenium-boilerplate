@@ -1,0 +1,6 @@
+.env
+node_modules
+wp_data
+vendor
+uploads
+plugins

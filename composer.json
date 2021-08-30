@@ -1,0 +1,23 @@
+{
+  "name": "emrerothzerg/wp",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "./plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  }, 
+  "require": {
+    "wpackagist-plugin/advanced-custom-fields": "*",
+    "wpackagist-plugin/timber-library": "*",
+    "wpackagist-plugin/wordpress-importer": "*",
+    "wpackagist-plugin/all-in-one-wp-migration": "*"
+  },
+  "license": "MIT"
+}
